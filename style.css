@@ -1,0 +1,61 @@
+@import url(/Pacifico-Regular.ttf);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+body {
+  background-color: #f7ecde;
+}
+.urlMarks h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: #352e28;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 0 30px 0;
+}
+h1::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  height: 20px;
+  background-color: #fec260;
+  z-index: -1;
+}
+.b-border {
+  margin: 50px 0 0 0;
+  border-bottom: 2px dotted #352e28;
+}
+h2 {
+  font-size: 25px;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+label {
+  margin: 40px 0 8px 0;
+  font-weight: 500;
+}
+.btn-submit {
+  color: #fff;
+  background-color: #d1512d;
+  padding: 6px 48px;
+  margin: 30px 0;
+}
+.btn-submit:hover {
+  background-color: #bb4120 !important;
+  color: #fff !important;
+}
+
+.table > :not(caption) > * > * {
+  width: 1000px;
+  background-color: #fafafa;
+}
